@@ -1,0 +1,38 @@
+@import './../../style/default.less';
+
+.header {
+  @height50:50px;
+  background-color: @c_fff;
+  .header-top {
+    height: @height50;
+    line-height: @height50;
+    padding: 0 20px;
+    text-align: right;
+    .logo {
+      height: 100%;
+      font-size: @font16;
+      display: flex;
+      align-items: center;
+      img {
+        display: block;
+        margin:0 10px;
+        width: 40px;
+        height: 37px;
+      }
+    }
+  }
+
+}
+.header-right{
+  @height32:32px;
+  color: rgb(67, 67, 67);
+  img{
+    width: @height32;
+    height: @height32;
+    vertical-align: middle;
+  }
+  .divider{
+    height: 32px;
+    margin: 0 15px;
+  }
+}

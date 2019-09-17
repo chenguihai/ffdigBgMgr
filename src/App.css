@@ -1,0 +1,35 @@
+.ant-table-wrapper {
+    margin-top: 10px;
+}
+
+.container {
+    background: #F6F7FB;
+}
+
+.base-layout {
+    position: relative;
+}
+
+.layout-left {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    height: calc(100vh - 50px);
+    z-index: 1000;
+    padding-top: 30px;
+    transition: all 0.3s linear;
+}
+
+.nav-btn * {
+    font-size: 20px;
+}
+
+.ant-menu {
+    border-right: none;
+}
+
+.layout-right {
+    width: 100%;
+    margin-top: 50px;
+    transition: all 0.3s linear;
+}

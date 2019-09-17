@@ -1,0 +1,88 @@
+@import './../../style/default.less';
+
+.articleHead {
+  width: 700px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+
+  .title {
+    line-height: 1.5;
+    font-size: 24px;
+  }
+
+  .info, .label {
+    font-size: 14px;
+    line-height: 14px;
+    color: @c_bbb;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px auto 14px;
+
+    .timer {
+      margin: 0 20px 0 80px;
+    }
+
+    .comment {
+      color: @c_999;
+      word-spacing: 8px;
+    }
+  }
+
+  .label {
+    margin-bottom: 20px;
+  }
+
+  .abstract {
+    display: flex;
+    align-items: center;
+    height: auto;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px 28px 10px 24px;
+    background-color: #F8F5EF;
+    color: #B19E77;
+    border-left: 4px solid #EADFCC;
+    text-align: left;
+  }
+}
+
+body {
+  .bf-content {
+    height: 700px;
+    font-size: 14px;
+    *{
+      line-height: 32px;
+    }
+  }
+}
+
+.previewCtn {
+  box-sizing: border-box;
+  width: 700px;
+  margin: 0 auto;
+
+  img,
+  audio,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  pre {
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-left: 3px solid #d1d1d1;
+  }
+}
